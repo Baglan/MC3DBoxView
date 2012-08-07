@@ -15,6 +15,13 @@
 		8656BF3115D0E59A0053A59D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8656BF3015D0E59A0053A59D /* AppDelegate.m */; };
 		8656BF3415D0E59A0053A59D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8656BF3315D0E59A0053A59D /* ViewController.m */; };
 		8656BF3715D0E59A0053A59D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8656BF3515D0E59A0053A59D /* ViewController.xib */; };
+		8656BF4015D0E5FD0053A59D /* MC3DBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8656BF3F15D0E5FD0053A59D /* MC3DBoxView.m */; };
+		8656BF4215D0E6650053A59D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8656BF4115D0E6650053A59D /* QuartzCore.framework */; };
+		8656BF4415D0E66C0053A59D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8656BF4315D0E66C0053A59D /* MapKit.framework */; };
+		8656BF4715D0E8120053A59D /* checkers.png in Resources */ = {isa = PBXBuildFile; fileRef = 8656BF4615D0E8120053A59D /* checkers.png */; };
+		8656BF4915D0E8E70053A59D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8656BF4815D0E8E70053A59D /* README.md */; };
+		8656BF4B15D0E9060053A59D /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 8656BF4A15D0E9060053A59D /* LICENSE.md */; };
+		8656BF4D15D0ECB20053A59D /* MC3DBoxView.png in Resources */ = {isa = PBXBuildFile; fileRef = 8656BF4C15D0ECB20053A59D /* MC3DBoxView.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +38,14 @@
 		8656BF3215D0E59A0053A59D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8656BF3315D0E59A0053A59D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8656BF3615D0E59A0053A59D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		8656BF3E15D0E5FD0053A59D /* MC3DBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MC3DBoxView.h; path = Classes/MC3DBoxView.h; sourceTree = "<group>"; };
+		8656BF3F15D0E5FD0053A59D /* MC3DBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MC3DBoxView.m; path = Classes/MC3DBoxView.m; sourceTree = "<group>"; };
+		8656BF4115D0E6650053A59D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8656BF4315D0E66C0053A59D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8656BF4615D0E8120053A59D /* checkers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkers.png; path = Assets/checkers.png; sourceTree = "<group>"; };
+		8656BF4815D0E8E70053A59D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		8656BF4A15D0E9060053A59D /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
+		8656BF4C15D0ECB20053A59D /* MC3DBoxView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MC3DBoxView.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8656BF4415D0E66C0053A59D /* MapKit.framework in Frameworks */,
+				8656BF4215D0E6650053A59D /* QuartzCore.framework in Frameworks */,
 				8656BF2115D0E59A0053A59D /* UIKit.framework in Frameworks */,
 				8656BF2315D0E59A0053A59D /* Foundation.framework in Frameworks */,
 				8656BF2515D0E59A0053A59D /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +67,11 @@
 		8656BF1115D0E59A0053A59D = {
 			isa = PBXGroup;
 			children = (
+				8656BF4C15D0ECB20053A59D /* MC3DBoxView.png */,
+				8656BF4A15D0E9060053A59D /* LICENSE.md */,
+				8656BF4815D0E8E70053A59D /* README.md */,
+				8656BF4515D0E8080053A59D /* Assets */,
+				8656BF3D15D0E5E90053A59D /* Classes */,
 				8656BF2615D0E59A0053A59D /* MC3DView */,
 				8656BF1F15D0E59A0053A59D /* Frameworks */,
 				8656BF1D15D0E59A0053A59D /* Products */,
@@ -67,6 +89,8 @@
 		8656BF1F15D0E59A0053A59D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8656BF4315D0E66C0053A59D /* MapKit.framework */,
+				8656BF4115D0E6650053A59D /* QuartzCore.framework */,
 				8656BF2015D0E59A0053A59D /* UIKit.framework */,
 				8656BF2215D0E59A0053A59D /* Foundation.framework */,
 				8656BF2415D0E59A0053A59D /* CoreGraphics.framework */,
@@ -96,6 +120,23 @@
 				8656BF2E15D0E59A0053A59D /* MC3DView-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8656BF3D15D0E5E90053A59D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8656BF3E15D0E5FD0053A59D /* MC3DBoxView.h */,
+				8656BF3F15D0E5FD0053A59D /* MC3DBoxView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8656BF4515D0E8080053A59D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8656BF4615D0E8120053A59D /* checkers.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +192,10 @@
 			files = (
 				8656BF2B15D0E59A0053A59D /* InfoPlist.strings in Resources */,
 				8656BF3715D0E59A0053A59D /* ViewController.xib in Resources */,
+				8656BF4715D0E8120053A59D /* checkers.png in Resources */,
+				8656BF4915D0E8E70053A59D /* README.md in Resources */,
+				8656BF4B15D0E9060053A59D /* LICENSE.md in Resources */,
+				8656BF4D15D0ECB20053A59D /* MC3DBoxView.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +209,7 @@
 				8656BF2D15D0E59A0053A59D /* main.m in Sources */,
 				8656BF3115D0E59A0053A59D /* AppDelegate.m in Sources */,
 				8656BF3415D0E59A0053A59D /* ViewController.m in Sources */,
+				8656BF4015D0E5FD0053A59D /* MC3DBoxView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
