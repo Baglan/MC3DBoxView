@@ -48,6 +48,4 @@ And here's how you would add, say, a map to one of the sides:
 ```
     MKMapView *mapView = [[MKMapView alloc] initWithFrame:self.view.bounds];
     [boxView.frontView addSubview:mapView];
-    mapView.layer.rasterizationScale = 2.0;
-    mapView.layer.shouldRasterize = YES;
 ```
