@@ -17,7 +17,7 @@ This code is available under the MIT license.
 ## Installation
 
 1. Drag files from the Classes folder to your project;
-2. \#import "MC3DBixView.h" wherever you want to use it.
+2. \#import "MC3DBoxView.h" wherever you want to use it.
 
 ## Usage
 
